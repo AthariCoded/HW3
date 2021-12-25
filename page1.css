@@ -8,10 +8,22 @@ body {
   /* 2. اجعل الصورة تظهر مرة واحد   */
   /* hint : repeat proparty */
   /* اكتب  الكود هنا 👇🏽 */
-
+  background-size: 100px;
+  background-repeat: no-repeat;
   /* المطلوب الخامس هنا  */
   /* يظهر بمتنصف الصفحة  movie card  اجعل ال   */
   /* اكتب  الكود هنا 👇🏽 */
+  display: flex;
+  justify-content: center;
+}
+
+header {
+  text-shadow: 0 0 10px #fad2e1;
+  color: #fad2e1;
+  font-size: x-large;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-weight: bold;
 }
 
 .myimage {
@@ -20,8 +32,18 @@ body {
   /* 2, border radius */
   /* 3. add box shadow */
   /* اكتب  الكود هنا 👇🏽 */
+  height: 250px;
+  border-radius: 10px;
+  box-shadow: 20px 20px 20px black;
+}
+.myimage:hover {
+  height: 300px;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
 .button {
   /* المطلوب الثالث هنا */
   /*   1. height : 20px 
@@ -29,6 +51,10 @@ body {
          3.remove border
          4. change  background color */
   /* اكتب  الكود هنا 👇🏽 */
+  height: 20px;
+  width: 200px;
+  border: 0;
+  background-color: #d55d92;
 }
 
 .container {
@@ -41,4 +67,12 @@ body {
        6.اجعل العناصر تظهر بمنتص البطاقة
        7.  border radius */
   /* اكتب  الكود هنا 👇🏽 */
+  display: flex;
+  background-color: #892b64;
+  height: 80vh;
+  width: 500px;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 20px;
 }
